@@ -1,0 +1,66 @@
+img{
+    margin-left: 10px;
+}
+.style-1{
+    width: 200px;
+    border-radius: 20px;
+}
+.style-2{
+width: 200px;
+height: 200px;
+}
+.style-3{
+    width: 200px;
+    border-radius: 50%;
+
+}
+.search-1{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: rgb(110, 109, 106);
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.google-search{
+    display: block;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color:white;
+    border-width: 1px;
+    box-shadow: 10px 10px rgb(253, 249, 255);
+}
+div{
+    border: 1px solid green;
+}
+.twitter-text-input{
+padding-left: 180px;
+padding-right: 180px;
+padding-top: 20px;
+padding-left: 20px;
+border: none;
+vertical-align: top;
+font-size: 20px;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+.post{
+    background-color: rgb(62, 62, 231);
+    color: white;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: top;
+}
