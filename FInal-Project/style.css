@@ -1,21 +1,67 @@
+.body-container{
+    display: flex;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.side-bar div p{
+    margin-top: 0px;
+    par
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-profile{
+    display: flex;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+.video-card{
+    vertical-align: top;
+    margin-right: 20px;
+}
 .thumbnail{
-    width: 300px;
+    width: 100%;
+    border-radius: 10px;
     display: block;
 
+}
+.video-desc{
+    display: flex;
+    width: 300px;
+
+}
+.profile img{
+    width: 50px;
+}
+.text{
+    width: 240px;
 }
 .video-title{
     font-family: Roboto;
     font-weight: bold;
-    b 
-
 }
 .video-author{
-    
-
-}
-.video-author{
+font-size: 18px;
+color: rgb(96, 96, 96);
+line-height: 18px;
 
 }
 .video-view{
+    color: rgb(96, 96, 96);
 
+}
+.profile img{
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
 }
